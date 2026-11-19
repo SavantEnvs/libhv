@@ -1,0 +1,8 @@
+# comment
+port = 8080
+[server]
+host=0.0.0.0 ; inline
+worker_processes = auto
+
+[log]
+level=INFO

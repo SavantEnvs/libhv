@@ -1,0 +1,9 @@
+project: savantenvs/libhv
+target: fuzz_hlog
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_hlog/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_hlog
+    libfuzzer: true
+    timeout: 5

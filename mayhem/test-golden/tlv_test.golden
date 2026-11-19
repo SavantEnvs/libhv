@@ -1,0 +1,12 @@
+test_tlv:
+  roundtrip T=4 L=4 BE: OK
+  roundtrip T=4 L=4 LE: OK
+  roundtrip T=2 L=2 BE: OK
+  roundtrip T=1 L=4 BE: OK
+  roundtrip T=0 L=4 BE: OK
+  roundtrip T=8 L=4 BE: OK
+  type slicing: OK
+  short buffer: OK
+  value too big rejected: OK
+  width clamp + oversize rejected: OK
+ALL PASS

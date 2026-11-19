@@ -1,0 +1,16 @@
+http://user:pswd@[www.example.com]:80/path?query#fragment =>
+http://user:pswd@www.example.com:80/path?query#fragment
+http://user:pswd@www.example.com:80/path?query#fragment =>
+http://user:pswd@www.example.com:80/path?query#fragment
+http://user:pswd@www.example.com/path?query#fragment =>
+http://user:pswd@www.example.com/path?query#fragment
+http://www.example.com/path?query#fragment =>
+http://www.example.com/path?query#fragment
+http://www.example.com/path?query =>
+http://www.example.com/path?query
+http://www.example.com/path =>
+http://www.example.com/path
+www.example.com/path =>
+www.example.com/path
+/path =>
+/path

@@ -1,0 +1,6 @@
+GET /static/index.html HTTP/1.1
+Host: x
+Range: bytes=0-3
+
+GET /index.html HTTP/1.1
+

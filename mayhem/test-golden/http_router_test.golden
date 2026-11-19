@@ -1,0 +1,10 @@
+Match /hello
+Match /users/:id
+Match /orders/{orderId}
+Match /wildcard*
+Match /www.*.html
+Match /users/list
+Match /dup
+Match *
+Match /users/list
+Match /users/:id

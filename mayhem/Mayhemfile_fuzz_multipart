@@ -1,0 +1,9 @@
+project: savantenvs/libhv
+target: fuzz_multipart
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_multipart/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_multipart
+    libfuzzer: true
+    timeout: 5
